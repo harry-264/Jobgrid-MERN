@@ -1,0 +1,24 @@
+
+
+footer .row .col p + p {
+  margin-bottom: 12px !important;
+}
+
+/* .footer-p {
+  margin-top: -1rem;
+} */
+
+.footer-links p {
+  margin-bottom: 10px;
+  font-size: 14px;
+}
+
+.footer-logo {
+  width: 10rem;
+}
+
+@media (min-width: 768px) {
+  .footer-logo {
+    width: 12rem;
+  }
+}

@@ -1,0 +1,70 @@
+.jobtitle-hover:hover {
+  color: #1d4ed8 !important;
+}
+
+.text-blue {
+  color: #2563eb !important;
+}
+
+.bg-blue {
+  background-color: #2563eb !important;
+  color: white !important;
+}
+
+.bg-blue:hover {
+  background-color: #1d4ed8 !important;
+}
+
+.hero-gradient {
+  background: linear-gradient(to bottom right, #003d99, #001433) !important;
+}
+
+.bg-light-blue {
+  background-color: #eff6ff;
+}
+
+.bg-light-blue2 {
+  background-color: #e2efff;
+}
+
+.light-blue {
+  background-color: #dbeafe;
+}
+
+.profile-photo {
+  width: 10rem;
+  height: 10rem;
+}
+
+.companyLogo {
+  width: 7rem;
+  height: 7rem;
+  margin-top: -3rem;
+}
+
+/* Filter drawer styles */
+.filter-overlay {
+  z-index: 1060;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.filter-drawer {
+  transition: transform 0.3s ease-in-out;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
+
+@media (max-width: 576px) {
+  .profile-photo {
+    width: 9rem;
+    height: 9rem;
+  }
+  .companyLogo {
+    width: 6rem;
+    height: 6rem;
+    margin-top: -2rem;
+  }
+  .stickyTop {
+    position: sticky;
+    top: 65px;
+  }
+}

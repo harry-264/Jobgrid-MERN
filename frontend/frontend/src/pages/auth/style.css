@@ -1,0 +1,27 @@
+/* body {
+    min-height: 100vh;
+    background: linear-gradient(135deg, #000814, #001d3d, #001233);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    color: #ffffff;
+  } */
+
+/* .userbg {
+    background: radial-gradient( white,hsl(234, 82%, 18%),#050a30,#050a30,#050a30,#050a30);
+    height: 100vh;
+} */
+
+.userbg {
+  background-color: #050a30;
+  height: 100vh;
+}
+
+.light-gray-bg {
+  background-color: #f7f6f6 !important;
+}
+
+::placeholder, .icon {
+  color: #9b9a9a !important;
+}
+
